@@ -12,7 +12,7 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-        error("Build failed because of this and that..")
+        error("Build failed because of this and that..");
         
     }
 
