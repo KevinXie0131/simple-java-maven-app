@@ -1,5 +1,5 @@
 package com.mycompany.app;
-
+import static com.sun.org.apache.xalan.internal.xsltc.compiler.sym.error;
 /**
  * Hello world!
  */
@@ -12,7 +12,8 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-        int i = 1/0;
+        error("Build failed because of this and that..")
+        
     }
 
     private final String getMessage() {
