@@ -43,7 +43,7 @@ public class AppTest
     @Test
     public void testAppMain1()
     {
-       assertEquals("Hello World!@@@@" + System.getProperty("line.separator"), outContent.toString());
+       assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
     }
     
     @After
